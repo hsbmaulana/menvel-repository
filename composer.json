@@ -1,0 +1,27 @@
+{
+    "name": "hsbmaulana/menvel-repository",
+    "version": "1.0.0",
+    "description": "Lumen-Laravel (Repository)",
+
+    "authors": [{ "name": "Hasby Maulana", "email": "hsbmaulana.iso@gmail.com" }],
+
+    "require": {
+
+        "php": "^8.0",
+        "illuminate/database": "^8.0",
+        "illuminate/pagination": "^8.0",
+        "illuminate/support": "^8.0"
+    },
+
+    "require-dev": {},
+
+    "autoload": {
+
+        "psr-4": {
+
+            "Menvel\\Repository\\": "src/"
+        }
+    },
+
+    "autoload-dev": {}
+}
