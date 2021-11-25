@@ -7,13 +7,16 @@
 
     "require": {
 
-        "php": "^8.0",
-        "illuminate/database": "^8.0",
-        "illuminate/pagination": "^8.0",
-        "illuminate/support": "^8.0"
+        "php": "^8.0"
     },
 
     "require-dev": {},
+
+    "suggest": {
+
+        "laravel/lumen-framework": "Required when using lumen framework (^8.0).",
+        "laravel/framework": "Required when using laravel framework (^8.0)."
+    },
 
     "autoload": {
 

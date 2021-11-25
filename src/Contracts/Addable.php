@@ -2,10 +2,11 @@
 
 namespace Menvel\Repository\Contracts;
 
-interface IFeature
+interface Addable
 {
     /**
+     * @param array $data
      * @return mixed
      */
-    public function __invoke();
+    public function add($data);
 }
